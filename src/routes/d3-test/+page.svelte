@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import * as d3 from 'd3';
 
 	const points = [
@@ -17,7 +17,7 @@
 	let width = 500;
 	let height = 200;
 
-	function formatMobile(tick) {
+	function formatMobile(tick:any) {
 		return "'" + tick.toString().slice(-2);
 	}
 
